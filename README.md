@@ -1,9 +1,10 @@
 Microask
 ===============================================================================
 
-µ-scale feedback form
-
-![](microask.gif)
+<p align="center">
+µ-scale feedback form<br />
+<img src="microask.gif" />
+</p>
 
 Usage
 -------------------------------------------------------------------------------
@@ -44,28 +45,28 @@ API
 
 All methods return an instance of `Microask` to enable chaining.
 
-### `.show(0) => Microask`
+#### `.show(0) => Microask`
 
 Show the microask.
 
-### `.hide(0) => Microask`
+#### `.hide(0) => Microask`
 
 Hide the microask.
 
-### `.hideAfter(delay: Number) => Microask`
+#### `.hideAfter(delay: Number) => Microask`
 
 Delay hide until `delay` ms have elapsed
 
-### `.update(htmlStr: String, callback: Function?) => Microask`
+#### `.update(htmlStr: String, cb: Function?) => Microask`
 
 Set microask HTML to `htmlStr`. If `callback` is provided, it will receive the
 updated element once the update is complete.
 
-### `.updateAfter(htmlStr: String, delay: Number, callback: Function?) => Microask`
+#### `.updateAfter(htmlStr: String, delay: Number, cb: Function?) => Microask`
 
 Delay update until `delay` ms have elapsed
 
-### `.buttonSchene(opts: Object) => Microask`
+#### `.buttonScene(opts: Object) => Microask`
 
 Render a button scene.
 
@@ -85,7 +86,7 @@ ask.buttonScene({
 });
 ```
 
-### `.textSchene(opts: Object) => Microask`
+### `.textScene(opts: Object) => Microask`
 
 Render a text scene.
 
