@@ -1,0 +1,70 @@
+.demo {
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.demo form {
+  display: block;
+  width:480px;
+}
+
+.demo fieldset {
+  border: none;
+}
+
+.demo button {
+  border: 1px solid #231f20;
+  border-bottom-width: 2px;
+  border-radius: 3px;
+  background: #fff;
+  margin: 10px;
+  position:relative;
+  transition: border-color top linear 0.2s;
+}
+
+.demo button:focus {
+  outline:none;
+}
+
+.demo button:active {
+  border:1px solid #1982d1;
+  top: 1px;
+  transition: all linear 0.2s;
+}
+
+.demo textarea {
+  border: 1px solid #231f20;
+  border-radius: 3px;
+  font: 0.8em/1.2em monospace;
+  margin-top: 10px;
+  padding: 10px;
+  height:180px;
+  display: block;
+  width:460px;
+}
+
+.demo button {
+  margin: 0 2px;
+}
+
+.demo h1 {
+  margin-bottom: 0;
+}
+
+.demo .description {
+  font: italic 1.2em/1 serif;
+  margin-top: 0;
+  text-align: center;
+}
+
+.demo .footer {
+  font: italic 0.8em/1 serif;
+}
+
+.microask {
+  left: 500px;
+  right: 500px;
+}

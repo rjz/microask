@@ -1,0 +1,86 @@
+.microask {
+  background-color: #fff;
+  border: 1px dotted #231f20;
+  border-radius: 4px 4px 0 0;
+  border-width: 1px 1px 0 1px;
+  border-top: 4px solid #231f20;
+  bottom: -100px;
+  padding: 8px 10px;
+  overflow: hidden;
+  position: fixed;
+  left: 100px;
+  right: 100px;
+  font-size: 0.8em;
+  text-align: center;
+  transition: 0.3s linear bottom;
+  z-index: 1;
+}
+
+.microask label,
+.microask p {
+  margin: 0 1em;
+}
+
+.microask button,
+.microask input {
+  border: 1px solid #231f20;
+  background-color: #fff;
+  border-radius: 3px;
+  letter-spacing: 0;
+  line-height: 1.2em;
+  margin-right: 0.3em;
+  padding: 0.1em 0.2em;
+  position:relative;
+}
+
+.microask button:focus,
+.microask button:hover,
+.microask input:focus,
+.microask input:hover {
+  border-color: #1982d1;
+  color: #054f87;
+}
+
+
+
+.microask button {
+  border-bottom-width: 2px;
+  cursor: pointer;
+  width: 5em;
+}
+
+.microask button:active {
+  border-bottom-width: 1px;
+  top: 1px;
+}
+
+.microask input {
+  font: italic 0.9em/1 serif;
+  padding: 0.3em 0.5em;
+  width: 220px;
+}
+
+.microask.active {
+  bottom: -1px;
+  transition: 0.3s linear bottom;
+}
+
+.microask .microask__content {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 7px;
+  opacity: 1;
+  transition: all linear 0.15s;
+}
+
+.microask .microask__content--exiting {
+  top: -30px;
+  opacity: 0;
+  transition: all linear 0.15s;
+}
+
+.microask .microask__content--entering {
+  top: 30px;
+  opacity: 0;
+}
