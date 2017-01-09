@@ -26,6 +26,7 @@
   border: 1px solid #231f20;
   background-color: #fff;
   border-radius: 3px;
+  color: #231f20;
   letter-spacing: 0;
   line-height: 1.2em;
   margin-right: 0.3em;
@@ -37,11 +38,10 @@
 .microask button:hover,
 .microask input:focus,
 .microask input:hover {
+  background-color: #fff;
   border-color: #1982d1;
   color: #054f87;
 }
-
-
 
 .microask button {
   border-bottom-width: 2px;
@@ -50,6 +50,7 @@
 }
 
 .microask button:active {
+  background-color: #fff;
   border-bottom-width: 1px;
   top: 1px;
 }
