@@ -40,7 +40,6 @@ Widget.prototype._appendContent = function (htmlStr) {
     content.className = contentClasses.base;
   }, 10);
   this.content = content;
-  console.log(this.content.clientHeight);
   this.el.style.height = this.content.clientHeight + 'px';
   return content;
 }
