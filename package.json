@@ -1,6 +1,6 @@
 {
   "name": "microask",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Microscale feedback form",
   "main": "microask.js",
   "scripts": {
