@@ -40,6 +40,16 @@ window.addEventListener('DOMContentLoaded', function () {
 });
 ```
 
+`Microask` implements `EventEmitter` for reporting feedback.
+
+```js
+  ask.addListener('event', function (e) {
+    const { id, action, value } = e;
+    console.log(`${id}: `${action}` "`${value}`");
+  });
+
+```
+
 API
 -------------------------------------------------------------------------------
 
