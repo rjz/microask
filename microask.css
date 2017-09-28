@@ -85,3 +85,11 @@
   top: 30px;
   opacity: 0;
 }
+
+@media screen and (max-width: 768px) {
+  .microask {
+    left: 20px;
+    right: 10px;
+    width: auto;
+  }
+}
