@@ -8,8 +8,8 @@
   padding: 8px 10px;
   overflow: hidden;
   position: fixed;
-  left: 100px;
-  right: 100px;
+  left: 20%;
+  right: 20%;
   font-size: 0.8em;
   text-align: center;
   transition: 0.3s linear bottom;
@@ -89,7 +89,6 @@
 @media screen and (max-width: 768px) {
   .microask {
     left: 20px;
-    right: 10px;
-    width: auto;
+    right: 20px;
   }
 }
